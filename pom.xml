@@ -10,17 +10,14 @@
     <version>1.0.0-SNAPSHOT</version>
 
     <!-- Metadata -->
-
     <name>Java starter project</name>
-
     <description>Starter project for Java based on Maven.</description>
-
-    <url>https://github.com/seeseekey/JavaStarterProject</url>
+    <url>https://github.com/seeseekey/JavaStarter</url>
 
     <licenses>
         <license>
             <name>MIT License</name>
-            <url>https://github.com/seeseekey/MinimalJavaProject/blob/master/LICENSE</url>
+            <url>https://github.com/seeseekey/JavaStarter/blob/master/LICENSE</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
@@ -36,9 +33,9 @@
 
     <!-- Define SCM context -->
     <scm>
-        <connection>scm:git:https://github.com/seeseekey/MinimalJavaProject.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/seeseekey/MinimalJavaProject.git</developerConnection>
-        <url>https://github.com/seeseekey/JavaStarterProject</url>
+        <connection>scm:git:https://github.com/seeseekey/JavaStarter.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/seeseekey/JavaStarter.git</developerConnection>
+        <url>https://github.com/seeseekey/JavaStarter</url>
     </scm>
 
     <!-- Encoding settings -->
