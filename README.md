@@ -1,6 +1,6 @@
-# Minimal Java / Maven start project
+# Java starter project
 
-Minimal template for a starting POM file. Generates a fat JAR file containing all dependencies. JAR are created with:
+Starter project for Java based on Maven. Generates a fat JAR file containing all dependencies. JAR are created with:
 
 > mvn package
 
@@ -11,9 +11,12 @@ Delivers some basic dependencies:
 * Guava
 * GSON
 * SLF4J
+* JUnit (5)
 
 Guava is a java helper library which deliver some interesting functions like LoadingCaches and helper methods. GSON 
 helps to serialise JSON into classes and vice verse. SLF4J is a facade for logging.
+
+JUnit is used for unit testing.
 
 # Plugins
 
