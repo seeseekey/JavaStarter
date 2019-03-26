@@ -31,13 +31,6 @@
         </developer>
     </developers>
 
-    <!-- Define SCM context -->
-    <scm>
-        <connection>scm:git:https://github.com/seeseekey/JavaStarter.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/seeseekey/JavaStarter.git</developerConnection>
-        <url>https://github.com/seeseekey/JavaStarter</url>
-    </scm>
-
     <!-- Encoding settings -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -64,6 +57,16 @@
     <!-- List of dependencies -->
     <dependencies>
         <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.26</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.26</version>
+        </dependency>
+        <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>27.1-jre</version>
@@ -73,11 +76,8 @@
             <artifactId>gson</artifactId>
             <version>2.8.5</version>
         </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.26</version>
-        </dependency>
+
+        <!-- Test related dependencies -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
