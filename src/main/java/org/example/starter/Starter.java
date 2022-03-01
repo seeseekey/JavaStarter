@@ -5,10 +5,10 @@ import org.slf4j.LoggerFactory;
 
 public class Starter {
 
-    private static Logger logger = LoggerFactory.getLogger(new Exception().fillInStackTrace().getStackTrace()[0].getClassName());
+    private static Logger log = LoggerFactory.getLogger(new Exception().fillInStackTrace().getStackTrace()[0].getClassName());
 
     public static void main(String[] args) {
 
-        logger.info("Hello, World!");
+        log.info("Hello, World!");
     }
 }
