@@ -13,14 +13,14 @@ Delivers some basic dependencies:
 * SLF4J
 * JUnit (Version 5)
 
-Guava is a java helper library which deliver some interesting functions like LoadingCaches and helper methods. GSON 
-helps to serialise JSON into classes and vice verse. SLF4J is a facade for logging.
+Guava is a java helper library which deliver some interesting functions and helper methods. GSON helps to 
+serialise JSON into classes and vice verse. SLF4J is a facade for logging.
 
 JUnit is used for unit testing.
 
 # Plugins
 
-Define Java 8 as project version. Assembly plugin for creating fat JAR file. Surfire-Plugin for executing tests.
+Define Java 17 as project version. Assembly plugin for creating fat JAR file. Surfire-Plugin for executing tests.
 
 # Extensions
 

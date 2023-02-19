@@ -5,10 +5,10 @@ import org.slf4j.Logger;
 
 public class Starter {
 
-    private static Logger log = Logging.getLogger();
+    private static final Logger LOG = Logging.getLogger();
 
     public static void main(String[] args) {
 
-        log.info("Hello, World!");
+        LOG.info("Hello, World!");
     }
 }
