@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Utility class to get logger
+ * Utility class to get a logger
  */
 public final class Logging {
 
