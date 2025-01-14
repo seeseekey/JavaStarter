@@ -1,36 +1,29 @@
-# Java starter project
+# Java Starter Project
 
-Starter project for Java based on Maven. Generates a fat JAR file containing all dependencies. JAR are created with:
+A starter project for Java based on Maven. It generates a fat JAR file containing all dependencies. The JAR files can be created with the following command:
 
 > mvn package
 
 ## Dependencies
 
-Delivers some basic dependencies:
+The project includes some basic dependencies:
 
-* Guava
+* Guava 
 * GSON
 * SLF4J
-* JUnit (Version 5)
+* JUnit
 
-Guava is a java helper library which deliver some interesting functions and helper methods. GSON helps to 
-serialise JSON into classes and vice verse. SLF4J is a facade for logging.
+**Guava** is a Java utility library that provides helpful functions and methods. **GSON** facilitates the serialization and deserialization of JSON into Java objects and vice versa. **SLF4J** serves as a facade for various logging frameworks.
 
-JUnit is used for unit testing.
+**JUnit** is used for unit testing.
 
-# Plugins
+## Plugins
 
-Define Java 17 as project version. Assembly plugin for creating fat JAR file. Surfire-Plugin for executing tests.
+The project is configured to use Java 21 (LTS). It employs the Assembly plugin to create the fat JAR file and the Surefire plugin to execute tests.
 
-# Extensions
+## Usage
 
-Support to deploy artifact to custom repository via WebDAV. 
-
-# Usage
-
-* Open project in IDE
-* Rename package name and project name
-* Rename Starter class
-* Remove unneeded dependencies from pom.xml
-* Remove or change custom repository upload on deploy from pom.xml
-* Happy coding
+1. Open the project in your IDE.
+2. Rename the package name and project name.
+3. Remove unused dependencies from the `pom.xml`.
+4. Happy coding!

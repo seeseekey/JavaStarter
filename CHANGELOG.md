@@ -3,6 +3,13 @@
 This changelog goes through all the changes that have been made in each release. Information about changelogs can 
 be found at [](https://keepachangelog.com).
 
+## [1.0.0-SNAPSHOT]() - 2025-01-14
+
+### Changed
+* Rename Starter to Application
+* Update dependencies
+* Update documentation
+
 ## [1.0.0-SNAPSHOT]() - 2023-04-07
 
 ### Added

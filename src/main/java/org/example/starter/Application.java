@@ -3,7 +3,7 @@ package org.example.starter;
 import org.example.starter.utils.Logging;
 import org.slf4j.Logger;
 
-public class Starter {
+public class Application {
 
     private static final Logger LOG = Logging.getLogger();
 

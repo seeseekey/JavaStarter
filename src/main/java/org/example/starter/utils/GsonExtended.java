@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.time.ZonedDateTime;
 
 /**
- * Utility class for a extended GSON object
+ * Utility class for an extended GSON object
  */
 public class GsonExtended {
 

@@ -4,12 +4,12 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-public class StarterTests {
+class ApplicationTests {
 
     @Test
     void testMinimalClass() {
 
-        Starter minimal = new Starter();
+        Application minimal = new Application();
         assertNotNull(minimal);
     }
 }
