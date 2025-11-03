@@ -8,6 +8,7 @@ be found at [](https://keepachangelog.com).
 ### Changed
 * Update project to Java 25
 * Refactor some names
+* Replace Maven Assembly Plugin with Maven Shade Plugin
 * Update dependencies
 * Update documentation
 
