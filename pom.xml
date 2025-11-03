@@ -110,6 +110,10 @@
                                         <exclude>META-INF/NOTICE*</exclude>
                                         <exclude>META-INF/DEPENDENCIES</exclude>
                                         <exclude>META-INF/MANIFEST.MF</exclude>
+                                        <!-- drop root-level legal files that often overlap -->
+                                        <exclude>LICENSE</exclude>
+                                        <exclude>NOTICE</exclude>
+                                        <exclude>THIRD-PARTY</exclude>
                                         <!-- drop JPMS descriptors from shaded output; not useful in fat-jars -->
                                         <exclude>module-info.class</exclude>
                                         <exclude>META-INF/versions/*/module-info.class</exclude>
