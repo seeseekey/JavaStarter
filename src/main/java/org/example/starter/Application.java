@@ -7,7 +7,7 @@ public class Application {
 
     private static final Logger LOG = Logging.getLogger();
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         LOG.info("Hello, World!");
     }

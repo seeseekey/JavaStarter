@@ -8,9 +8,9 @@ import java.util.List;
 /**
  * Utility class for resources operations
  */
-public final class Resources {
+public final class Resource {
 
-    private Resources() {
+    private Resource() {
     }
 
     public static String get(String resource) throws IOException {
