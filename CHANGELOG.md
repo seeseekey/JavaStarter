@@ -3,6 +3,15 @@
 This changelog goes through all the changes that have been made in each release. Information about changelogs can 
 be found at [](https://keepachangelog.com).
 
+## [1.0.0-SNAPSHOT]() - 2026-01-28
+
+### Changed
+* Update dependencies
+* Update documentation
+
+### Fixed
+* Fixed some documentation errors
+
 ## [1.0.0-SNAPSHOT]() - 2025-11-03
 
 ### Changed

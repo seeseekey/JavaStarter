@@ -19,7 +19,7 @@ The project includes some basic dependencies:
 
 ## Plugins
 
-The project is configured to use Java 21 (LTS). It employs the Assembly plugin to create the fat JAR file and the Surefire plugin to execute tests.
+The project is configured to use Java 25 (LTS). It employs the Assembly plugin to create the fat JAR file and the Surefire plugin to execute tests.
 
 ## Usage
 
